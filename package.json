@@ -1,0 +1,15 @@
+{
+  "name": "watermark-best-corner",
+  "version": "0.1.0",
+  "description": "A node.js script to calculate the best corner to watermark a image",
+  "author": "Rodrigo Alviani <rodrigoalviani@gmail.com> (https://github.com/rodrigoalviani)",
+  "main": "corner.js",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "latest",
+    "async": "latest",
+    "commander": "latest",
+    "request": "latest",
+    "gm": "latest"
+  }
+}
