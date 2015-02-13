@@ -13,7 +13,7 @@ program
 program.on('--help', function () {
   console.log(' Usage:');
   console.log('');
-  console.log('   node corner.js -u http://site.com/image.jpg');
+  console.log('   node app.js -u http://site.com/image.jpg');
 });
 
 program.parse(process.argv);
