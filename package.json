@@ -8,8 +8,12 @@
   "dependencies": {
     "underscore": "latest",
     "async": "latest",
-    "commander": "latest",
-    "request": "latest",
     "gm": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest",
+    "commander": "latest",
+    "request": "latest"
   }
 }
