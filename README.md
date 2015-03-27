@@ -12,6 +12,24 @@ The script will return NorthEast, NorthWest, SouthEast or SouthWest. The return 
 
 ##How to use
 
+Require lib
+```
+var corner = require('./lib/corner');
+```
+
+Send a image to corner function
+```
+request({
+    url: encodeURI('http://www.website.com/image.jpg')
+  })
+  .on('response', function (img) {
+    corner(img, function (c) {
+      console.log(c);
+    });
+  });
+```
+
+Or try a command line
 ```
 node app.js -u http://guiadossolteiros.com/wp-content/uploads/2013/08/mulher-lavando-carro-520x245.jpg
 ```
